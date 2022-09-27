@@ -1,0 +1,21 @@
+{
+  "name": "cdp-recruitment-javascript-master",
+  "version": "1.0.0",
+  "description": "## Filter",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "jest": "^27.0.6",
+    "lodash": "^4.17.20",
+    "yargs": "^16.1.0"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "test": "node --experimental-vm-modules ./node_modules/.bin/jest"
+  },
+  "author": "",
+  "type": "module",
+  "license": "ISC"
+}

@@ -20,7 +20,7 @@ try {
         console.log('Wrong arguments')
     }
  }else {
-    console.error('Expected at least one argument! (--filter | filter | --count | count )');
+    console.error('Expected at least one argument! (--filter="" | filter="" | --count | count )');
     process.exit(1);
  }
 } catch(err) {
